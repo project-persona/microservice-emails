@@ -4,7 +4,7 @@
   "description": "a template repository which other microservices SHOULD fork from (remember to change this!)",
   "main": "index.js",
   "scripts": {
-    "run": "node index.js",
+    "start": "node index.js",
     "lint": "standard",
     "test": "npm run lint && echo \"Warning: no test specified\"",
     "prepare": "husky install"
