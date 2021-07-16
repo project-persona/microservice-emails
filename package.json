@@ -1,7 +1,7 @@
 {
-  "name": "@persona/microservice-template",
+  "name": "@persona/microservice-emails",
   "version": "0.1.0",
-  "description": "a template repository which other microservices SHOULD fork from (remember to change this!)",
+  "description": "the email microservice for Persona project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,16 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/project-persona/microservice-template.git"
+    "url": "git+ssh://git@github.com/project-persona/microservice-emails.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/project-persona/microservice-template/issues"
+    "url": "https://github.com/project-persona/microservice-emails/issues"
   },
-  "homepage": "https://github.com/project-persona/microservice-template#readme",
+  "homepage": "https://github.com/project-persona/microservice-emails#readme",
   "dependencies": {
-    "@persona/infra": "git+https://github.com/project-persona/infra.git"
+    "@persona/infra": "git+https://github.com/project-persona/infra.git",
+    "firebase-admin": "^9.11.0",
+    "mongodb": "^4.0.0",
+    "parameter": "^3.6.0"
   },
   "devDependencies": {
     "husky": "^7.0.1",
