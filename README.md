@@ -1,4 +1,4 @@
-# @persona/emails
+# @persona/microservice-emails
 
 the email microservice for Persona project
 
